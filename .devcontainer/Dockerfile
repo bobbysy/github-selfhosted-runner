@@ -1,0 +1,1 @@
+FROM nvcr.io/nvidia/cuda:12.2.0-devel-ubuntu20.04-custom
