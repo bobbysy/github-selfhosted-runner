@@ -13,7 +13,7 @@ RUN --mount=type=secret,id=mysecret \
     && cd /scripts \
     && ./github-actions-runner-download.sh \
     && ./docker-in-docker-install.sh \
-    && ./docker-in-docker-install.sh \
+    && ./python-install.sh \
     && ./git-install.sh \
     && ./node-install.sh \
     && ./terraform-install.sh
